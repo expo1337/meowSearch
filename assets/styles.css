@@ -1,0 +1,161 @@
+body {
+    background-color: #232634;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.icons {
+    margin-right: 5px;
+}
+
+.buttons {
+    text-decoration: none;
+    color: #a6e3a1;
+    margin-right: 10px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.footer-container {
+    width: 100vw;
+    left: 0;
+    background-color: var(--footer-bg);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #313244;
+}
+
+.footer-container a {
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color:#a6e3a1
+}
+
+.sub-search-button-wrapper {
+    text-decoration: none;
+    color: #a6e3a1;
+    margin-left: 165px;
+}
+
+.logo-main {
+    color: #a6e3a1;
+    font-size: 50px;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: #a6e3a1;
+}
+
+.search-wrapper {
+    display:flex;
+}
+
+.search-secondary {
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.logo-small {
+    color: #a6e3a1;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.search-container {
+    margin-top: 150px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-input {
+    color: antiquewhite;
+    background-color: #313244;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-input:focus{
+    outline: none;
+}
+
+.search-button {
+    padding: 8px 10px 8px 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #313244;
+    color: #b5bfe2;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    outline: none;
+}
+
+.elapsed-time {
+    margin-left: 170px;
+    color: #a6e3a1;
+}
+
+.result-container {
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+.result-wrapper {
+    margin-top: 20px;
+    max-width: 650px;
+    word-wrap: break-word;
+}
+
+.result-title {
+    text-decoration: none;
+    color: #ca9ee6;
+    font-size: 20px;
+}
+
+.result-url {
+    text-decoration: none;
+    color: #626880;
+}
+
+.result-text {
+    color: #b5bfe2;
+}
+
+.result-title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
